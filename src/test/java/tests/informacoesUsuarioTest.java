@@ -42,7 +42,7 @@ public class informacoesUsuarioTest {
         // linkSignIn.click();
 
         // Identificando o formulário de Login
-        WebElement formularioSignInBox = navegador.findElement(By.id("signinbox"));
+        // WebElement formularioSignInBox = navegador.findElement(By.id("signinbox"));
 
         // Digitar no campo com nome "login" que está debtro do formulário de id = "signinbox" o texto "julio0001"
         formularioSignInBox.findElement(By.name("login")).sendKeys("julio0001");
